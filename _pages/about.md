@@ -1,56 +1,77 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+## Current Research
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+**“At-Risk” Students and Urban Schools**\
+When studying urban schools, my angle is less on how students fail in schools but how schools fail students and teachers. In that way, like scholars who once worked at the Center for Research on the Education of Students Placed at Risk (CRESPAR) at Johns Hopkins University, I prefer the designation of “students placed at risk” to that of “at-risk” students. Using ethnographic methods, participatory action research approaches, and, most recently, critical discourse analysis techniques, I document and analyze risk-inducing situations from the perspectives of students and teachers who experience these situations. From my dissertation and my first book to my co-authored article published in the Spring of 2014 and my current book project, Gone with the Neo-Liberal Wind: Minority Teens, School Reform, and Urban Misrepresentations in Sweden and the U.S., the precarious circumstances of urban youths, urban schools, and low-income urban communities remain unifying threads running through the vast majority of my research projects and publications.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<hr>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+**Geographically Displaced Persons**\
+My current research area aims to create viable opportunities for academics to work collaboratively with persons who have histories of forced migratory displacement. To that end, a group of academics from UNK, UNO, and UNL have initiated a series of community forums, reports, workshops and symposia that bridge researchers to Indigenous and International Displaced Persons/Communities. These forums, workshop and symposia are designed to uncover understudied areas regarding migratory displacement, develop community sensitive research agendas and reports, and identify viable participatory action research projects or scholarly initiatives designed and conducted via collaborations among researchers and community members.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+<hr>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+**Comedy, Satire, & Anti-Racism**\
+Another current research area of inquiry combines my specializations in Black Studies, Race and Ethnicity, and Intersectionality Theory with my interest in innovative pedagogy. From Spring 2018 to Fall 2019, with IRB approval, I initiated a one-campus case study on the use of comedic materials in university instructional settings.  I, along with my research assistants, examined whether comedic materials could be used as springboards for productive conversations about sensitive topics, especially anti-Black racism, springboard that facilitate understandings about racial equity. Follow-up research, initially scheduled for Spring 2020, resumed during Spring 2021. Thus far my co-authors and I submitted two article manuscripts from this case study to Sociology Compass in August of 2022. A third manuscript is scheduled for submission to Qualitative Inquiry by September 2022.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+**Bruce and Black Feminism**\
+My newest project explores how Bruce Lee had multiple identity differences from the White American mainstream (e.g., in regard to race, perceived nationality, religion). Similar to approaches used by Black Feminists, Lee used his experiences with these differences to fight bigotry instead of dehumanizing those with less power.
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+**Student Opportunities**\
+Over the last few years, I have been working with students (undergraduates, graduates, and one high school student) on Indigenous resistance and Standing Rock, religious minorities in Lincoln from the Middle East, the IRB challenges encountered by researchers who work with vulnerable groups, newspaper misrepresentations of so-called “ghetto” students in Sweden and the U.S., elite school officials’ blind spots regarding educational inequality, and the grassroots needs of communities (Indigenous and International) who have histories of forcible geographical displacement. Thanks to NU Team Building Funding, I am currently working with graduate students on my project involving persons with histories of forcible geographic displacement.
 
-**Markdown generator**
+**Current Teaching**\
+My most recent courses include The Minority Experience (Ethnic Studies 100), Social Inequality: Race, Class, and Gender (Sociology 398 Special Topics), Immigration and Multiculturalism (Sociology 398 Special Topics), a hybrid undergraduate-graduate course on Social Inequality: Race, Class, and Gender (Sociology 391/898), and a graduate seminar From Bruce Lee to Black Lives Matter (Sociology 906). Immigration and Multiculturalism was a Global Virtual Classroom course that includes once-a-week discussions with students from the University of Jordan in Amman. Using funds from a Virtual Global Teaching Grant, I plan to resume work disrupted by COVID-19 with scholars at Lund University (Sweden), Gothenburg University (Sweden), and Hiroshima University (Japan) on a Virtual Global Seminar.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+## Selected Publications
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+“Ideal Dialogues with Immigrants of Color in Sweden and the U.S.: A Participatory-Ethnographic Approach.” 2019. Journal of Ethnography and Qualitative Research (L. J. Dance and L. Johnson, co-authors).
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+“Black Lives Matter!: Dreaming for America to Practice What Jefferson Preached,” Racism Review, an Academic Blog by Professors Joe R. Feagin and Jessie Daniels,  February 15, 2017. (L.J. Dance).
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+“Propaganda on Palestine: All Knowing White Man and Angry Black Woman conjure ‘good’ Jews and ‘evil’ Arabs,” Mondoweiss (a progressive on-line journal by Jewish American journalists on Israel/Palestine), August 11, 2014. (L.J. Dance and C. Holm, co-authors).
+
+“Performativity Pressures at Urban High Schools in Sweden and the U.S.,” Ethnography and Education, Volume 9, Issue 3, April 2014 (J. Lunneblad and L. J. Dance, equally contributing co-authors; LJ Dance main copy editor)
+
+“Preparing Children of Immigrants: Promising Schools in New York and Sweden,” in The Children of Immigrants in Schools: A Comparative Look at Integration in the U.S. and Western Europe, edited by Richard Alba and Jennifer Holdaway. (2013) New York University Press (Carola Suárez-Orozco, Margary Martin, Mikael Alexandersson, L. J. Dance,  & J. Lunneblad)
+
+## Recent Grant Activity
+
+2020. NU Team Building Grant, University of Nebraska ($149,996)
+
+2019. NU Team Building Grant, “Coming to the Plains: Latinx Oral Histories,” Co-PI, University of Nebraska (UNK lead campus) ($75,000)
+
+2019. NU Collaboration Planning Grant, University of Nebraska ($20,000)
+
+2018. Internal Grant: Inclusive Excellence Development Grants, University of Nebraska’s Office of Diversity, Access and Inclusion. ($3000).
+
+2015. Internal Grant: College of Arts and Sciences International Travel for Scholarly Presentations, University of Nebraska-Lincoln. ($1500).
+
+2013. Vetenskapsrådet /The Swedish Research Council, Co-PI, The Middle East in the Contemporary World (MECW) Strategic Research Area Grant, Lund University, Lead PI-Leif Stenberg, award amount = approximately 2,000,000 USD per year for five years)
+
+## Other Information
+
+**Diversity Work**\
+Nurturing diversity, inclusion, and equity practices is an ever evolving work-in-progress. However, most recently at the University of Nebraska-Lincoln, I have nurtured diversity, inclusion, and equity practices via (1) workshops, (2) a new initiative called Bridges Across Diversity, (3) a new course developed using the Game of Thrones, and (4) an Inclusive Excellence Grant Awarded for a project titled “The Husker DNA Journey.”  Currently, I serve as one of the five UNL Journey for Anti-Racism and Racial Equity Co-Leaders.
+
+**Public Intellectual**\
+I will not elaborate my activist work here but I will provide a few examples of why others have called me a Public Intellectual. Over the last several years I have worked with persons in prisons, low-income youths of color from NGOs and recreation centers, persons and organizations from several different marginalized groups (for example Black Americans, Indigenous Americans, Palestinians), persons in Sweden and the U.S. from refugee backgrounds, and so on. Many persons from these groups have had little to no interest in attending academic lectures, reading academic books and journal articles, or attending academic conferences. I have, therefore, been working on more accessible formats for spreading sociological knowledge. The poetic expression of Spoken Word is central to these more accessible formats of knowledge dissemination.
+
+During the Summer of 2013, after the civil unrest that occurred in Stockholm Sweden in May of 2013, I was invited to several discussions by non-academic organizations in Sweden. Instead of a typical lecture, I gave a spoken word lecture comparing Black American civil protests to those in Sweden. Inspired by Motown artists of the 1960s, the title of that spoken word lecture is “RESPECT In The Name of Love.SE.” During the Fall of 2016, along with Native activist Leo Yankton, I gave talks in Sweden that bridged the experiences of Native Americans, Black Americans, Indigenous Scandinavians (Sami), and Palestinians. One of our talks was titled “I Cannot Be Free When You Are Not Free.” During May of 2022, I organized a solidarity rally in support of the Niskithe Prayer Camp, an Indigenous organization fighting to prevent the disruption and displacement of sacred purification lodges in Lincoln, Nebraska.
+
+## Areas of Interest
+
+Sociology of Race & Ethnicity\
+Urban Education\
+Black Studies\
+Cross-National Comparisons\
+Qualitative Methods\
+Participatory Action Research
