@@ -9,7 +9,7 @@ redirect_from:
 
 ## Current Research
 
-<details><summary><“At-Risk” Students and Urban Schools</summary>
+<details><summary>“At-Risk” Students and Urban Schools</summary>
 When studying urban schools, my angle is less on how students fail in schools but how schools fail students and teachers. In that way, like scholars who once worked at the Center for Research on the Education of Students Placed at Risk (CRESPAR) at Johns Hopkins University, I prefer the designation of “students placed at risk” to that of “at-risk” students. Using ethnographic methods, participatory action research approaches, and, most recently, critical discourse analysis techniques, I document and analyze risk-inducing situations from the perspectives of students and teachers who experience these situations. From my dissertation and my first book to my co-authored article published in the Spring of 2014 and my current book project, Gone with the Neo-Liberal Wind: Minority Teens, School Reform, and Urban Misrepresentations in Sweden and the U.S., the precarious circumstances of urban youths, urban schools, and low-income urban communities remain unifying threads running through the vast majority of my research projects and publications.</details>
 
 <details><summary>Geographically Displaced Persons</summary>
